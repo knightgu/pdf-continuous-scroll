@@ -1,3 +1,4 @@
+;;; pdf-continuous-scroll-mode.el --- pdf-view mode continuous scroll -*- lexical-binding: t -*-
 (defun pdf-cscroll-window-dual-p ()
   "Return t if current scroll window status is dual, else nil."
     (or (equal 'upper (alist-get 'pdf-scroll-window-status (window-parameters)))
